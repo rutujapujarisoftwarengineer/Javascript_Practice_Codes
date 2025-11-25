@@ -7,12 +7,16 @@
 //Loops
 
 let heroes = ["spiderman","Thor","Ironman","Shaktiman","Hulk"];
+
 // for(let idx = 0; idx < heroes.length; idx++) //for loop
 // {
 //     console.log(heroes[idx]);
 // }
 
-for(let element of heroes)  //for-of loop
-{
-    console.log(element);
-}
+// for(let element of heroes)  //for-of loop
+// {
+//     console.log(element);
+// }
+
+heroes[1] = "Robot";
+console.log(heroes); 
